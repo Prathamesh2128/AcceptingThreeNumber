@@ -17,5 +17,10 @@ public class Solution {
 
         double largest = Math.max(num1, Math.max(num2, num3));
         System.out.println("The largest number is: " + largest);
+
+        double average = (num1 + num2 + num3) / 3;
+        System.out.println("The average of the three numbers is: " + average);
+
+        scanner.close();
 	}
 }
